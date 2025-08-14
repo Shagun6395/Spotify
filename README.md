@@ -5,7 +5,7 @@
 [Dataset](https://github.com/Shagun6395/Spotify/blob/main/cleaned_dataset2.csv)
 
 
-<pre>'''create table
+<pre>create table
 DROP TABLE IF EXISTS spotify;
 CREATE TABLE spotify (
     artist VARCHAR(255),
@@ -32,7 +32,7 @@ CREATE TABLE spotify (
     stream BIGINT,
     energy_liveness FLOAT,
     most_played_on VARCHAR(50)
-);'''</pre>
+); </pre>
  ## Project Steps:
 **1. Data Exploration**
 Before diving into SQL, it’s important to understand the dataset thoroughly. The dataset contains attributes such as:
